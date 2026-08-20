@@ -1,0 +1,15 @@
+# Kernel module build products
+*.o
+*.ko
+*.mod
+*.mod.c
+*.mod.o
+*.order
+Module.symvers
+modules.order
+.*.cmd
+.tmp_versions/
+# Editor / junk
+*~
+*.swp
+EOF
