@@ -1,2 +1,4 @@
-# USB-3.0-DEVICE-DRIVER
-This is a basic usb device driver which shows all the capailities of a USB 3.0 usb device . Implements SuperSpeed mass storage (BBB): SS descriptors, LPM logging, bulk SCSI I/O
+# USB 3.0 Mass-Storage Driver
+Host-side Linux kernel module for a Transcend USB 3.x reader (VID:PID 8564:4000).
+Implements BBB bulk transfers (INQUIRY, TUR, READ CAPACITY, READ10), parses MBR partitions,
+and logs SuperSpeed companions, LPM (U1/U2), and stream support.
